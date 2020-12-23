@@ -32,8 +32,8 @@ title: 计算机教育中缺失的一课
 
 
 <ul>
-{% assign lectures = site['2020'] | sort: 'date' %}
-{% for lecture in lectures %}
+{% assign blogs = site['blogs'] | sort: 'date' %}
+{% for blogs in lectures %}
     <li>
     <strong>Update at {{ blog.date | date: '%-m/%d' }}</strong>:
     <a href="{{ blog.url }}">{{ blog.title }}</a>
