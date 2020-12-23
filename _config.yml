@@ -20,6 +20,8 @@ collections:
     output: true
   '2020':
     output: true
+  'blogs':
+    output: true
 
 # Excludes
 exclude:
