@@ -22,7 +22,8 @@ collections:
     output: true
   'blogs':
     output: true
-  'blogs/learning':
+  'blogs_learning':
+    relative_directory: '/_blogs/_learning'
     output: true
 
 
