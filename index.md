@@ -13,19 +13,6 @@ title: 计算机教育中缺失的一课
 
 关于[开设此课程的动机](/about/).
 
-{% comment %}
-# Registration
-
-Sign up for the IAP 2020 class by filling out this [registration form](https://forms.gle/TD1KnwCSV52qexVt9).
-{% endcomment %}
-
-# 日程
-
-{% comment %}
-**Lecture**: 35-225, 2pm--3pm<br>
-**Office hours**: 32-G9 lounge, 3pm--4pm (every day, right after lecture)
-{% endcomment %}
-
 <ul>
 {% assign lectures = site['2020'] | sort: 'date' %}
 {% for lecture in lectures %}
@@ -41,6 +28,19 @@ Sign up for the IAP 2020 class by filling out this [registration form](https://f
     {% endif %}
 {% endfor %}
 </ul>
+
+
+
+<ul>
+{% assign lectures = site['2020'] | sort: 'date' %}
+{% for lecture in lectures %}
+    <li>
+    <strong>Update at {{ blog.date | date: '%-m/%d' }}</strong>:
+    <a href="{{ blog.url }}">{{ blog.title }}</a>
+    </li>
+{% endfor %}
+</ul>
+
 
 讲座视频可以在 [
 YouTube](https://www.youtube.com/playlist?list=PLyzOVJj3bHQuloKGG59rS43e29ro7I57J)上找到。
