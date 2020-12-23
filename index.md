@@ -13,7 +13,7 @@ title: 计算机教育中缺失的一课
 
 关于[开设此课程的动机](/about/).
 
-<ul>
+<!-- <ul>
 {% assign lectures = site['2020'] | sort: 'date' %}
 {% for lecture in lectures %}
     {% if lecture.phony != true %}
@@ -27,7 +27,7 @@ title: 计算机教育中缺失的一课
         </li>
     {% endif %}
 {% endfor %}
-</ul>
+</ul> -->
 
 
 
