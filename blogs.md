@@ -1,5 +1,7 @@
-# 全部文章
-
+---
+layout: lecture
+title: "全部文章"
+---
 
 <ul>
 {% assign blogs = site['blogs/learning'] | sort: 'date' %}
