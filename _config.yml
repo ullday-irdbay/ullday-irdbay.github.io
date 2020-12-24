@@ -23,10 +23,10 @@ collections:
   'blogs':
     output: true
   'blogs_learning':
-    relative_directory: '_blogs/_learning'
+    relative_directory: './_blogs/_learning'
     output: true
   'blogs_learning1':
-    relative_directory: '_blogs/learning'
+    relative_directory: './_blogs/learning'
     output: true
     
 
