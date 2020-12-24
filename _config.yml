@@ -38,10 +38,10 @@ exclude:
   - Gemfile
   - Gemfile.lock
 
-# plugins:
-  # - jekyll-titles-from-headings
+plugins:
+  - jekyll-titles-from-headings
 
-# titles_from_headings:
-  # enabled:     false
-  # strip_title: false
-  # collections: false
+titles_from_headings:
+  enabled:     false
+  strip_title: false
+  collections: true

@@ -6,6 +6,8 @@ image: assets/images/bilibili_10_years.jpg
 tags: [featured]
 ---
 
+在GitHub Pages中嵌入bliiblii和youtube视频
+
 ## bilibili
 
 ### 获取代码

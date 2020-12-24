@@ -1,12 +1,12 @@
 ---
 layout: lecture
-title: "命令行环境"
 date: 2019-01-21
 ready: true
 video:
   aspect: 56.25
   id: e8BO_dYxk5c
 ---
+# 命令行环境
 
 当您使用 shell 进行工作时，可以使用一些方法改善您的工作流，本节课我们就来讨论这些方法。
 
