@@ -23,7 +23,7 @@ collections:
   'blogs':
     output: true
   'blogs_learning':
-    # relative_directory: './blogs/learning'
+    relative_directory: '_blogs/learning'
     # relative_directory: '_blogs'
     output: true
   'blogs_weekly':
