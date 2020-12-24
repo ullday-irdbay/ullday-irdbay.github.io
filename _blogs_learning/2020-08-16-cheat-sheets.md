@@ -20,6 +20,7 @@ tags: [featured, projects]
     <template>
         <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
         <link rel="stylesheet" href="ullday-irdbay.github.io/static/main.css">
+        <link rel="stylesheet" href="ullday-irdbay.github.io/static/syntax.css">
         <!-- <link rel="stylesheet" href="highlight-styles.css"> -->
   </template>
 </zero-md>
