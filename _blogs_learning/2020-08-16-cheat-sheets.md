@@ -16,7 +16,7 @@ tags: [featured, projects]
 
 <!-- Simply set the `src` attribute to your MD file and win -->
 <zero-md
-    css-urls='["https://dull-bird.github.io/assets/main.css", "https://dull-bird.github.io/assets/theme.css"]'
+    <!-- css-urls='["https://dull-bird.github.io/assets/main.css", "https://dull-bird.github.io/assets/theme.css"]' -->
     src="https://raw.githubusercontent.com/dull-bird/awesome-cheat-sheets/master/README.md">
 </zero-md>
 
