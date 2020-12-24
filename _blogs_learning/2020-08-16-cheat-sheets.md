@@ -17,6 +17,11 @@ tags: [featured, projects]
 <!-- Simply set the `src` attribute to your MD file and win -->
 <zero-md
     src="https://raw.githubusercontent.com/dull-bird/awesome-cheat-sheets/master/README.md">
+    <template>
+        <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
+        <link rel="stylesheet" href="ullday-irdbay.github.io/static/main.css">
+        <!-- <link rel="stylesheet" href="highlight-styles.css"> -->
+  </template>
 </zero-md>
 
 ---
