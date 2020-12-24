@@ -15,7 +15,7 @@ title: "全部文章"
 {% endfor %}
 </ul>
 
-<!-- # 随笔
+# 随笔
 
 <ul>
 {% assign blogs = site['blogs_weekly'] | sort: 'date' %}
@@ -24,7 +24,7 @@ title: "全部文章"
     <a href="{{ blog.url }}"><strong>{{ blog.date | date: '%-m/%d' }}</strong></a>
     </li>
 {% endfor %}
-</ul> -->
+</ul>
 
 <!-- <ul>
 {% assign blogs = site['blogs'] | sort: 'date' %}
