@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "Deep learning资料"
+# title: "Deep learning资料"
 date: 2020-06-14 10:14:17 -0000
 categories: [learning, reading]
 tags: [featured]

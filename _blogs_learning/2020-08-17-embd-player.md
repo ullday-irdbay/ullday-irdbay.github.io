@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: "在GitHub Pages中嵌入bliiblii和youtube视频"
+# title: "在GitHub Pages中嵌入bliiblii和youtube视频"
 categories: [learning]
 image: assets/images/bilibili_10_years.jpg
 tags: [featured]
