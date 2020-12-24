@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: Awesome Cheat Sheets
+# title: Awesome Cheat Sheets
 # date: 2020-07-17 10:59:49 -0000
 categories: learning
 image: assets/images/data-science-cheat-sheets-thumbnail.jpg
