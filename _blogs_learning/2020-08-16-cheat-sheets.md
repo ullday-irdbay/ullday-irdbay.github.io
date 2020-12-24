@@ -21,8 +21,8 @@ tags: [featured, projects]
     src="https://raw.githubusercontent.com/dull-bird/awesome-cheat-sheets/master/README.md">
     <template>
         <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
-        <link rel="stylesheet" href="ullday-irdbay.github.io/static/css/main.css">
-        <link rel="stylesheet" href="ullday-irdbay.github.io/static/css/syntax.css">
+        <link rel="stylesheet" href="https://ullday-irdbay.github.io/static/css/main.css">
+        <link rel="stylesheet" href="https://ullday-irdbay.github.io/static/css/syntax.css">
         <!-- <link rel="stylesheet" href="highlight-styles.css"> -->
   </template>
 </zero-md>
