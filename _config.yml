@@ -26,8 +26,8 @@ collections:
     # relative_directory: './blogs/learning'
     # relative_directory: '_blogs'
     output: true
-  'blogs_learning1':
-    relative_directory: './_blogs/learning'
+  'blogs_weekly':
+    # relative_directory: './_blogs/learning'
     output: true
     
 
