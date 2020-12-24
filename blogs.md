@@ -23,7 +23,7 @@ title: "全部文章"
 {% endfor %}
 </ul>
 
-<ul>
+<!-- <ul>
 {% assign blogs = site['blogs'] | sort: 'date' %}
 {% for blog in blogs %}
     <li>
@@ -31,4 +31,4 @@ title: "全部文章"
     <a href="{{ blog.url }}">{{ blog.title }}</a>
     </li>
 {% endfor %}
-</ul>
+</ul> -->
