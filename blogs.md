@@ -1,9 +1,11 @@
 ---
 layout: lecture
-title: "全部文章"
+# title: "全部文章"
 ---
 
-# 技术
+# 全部文章
+
+## 技术
 
 <ul>
 {% assign blogs = site['blogs_learning'] | sort: 'date' %}
@@ -15,7 +17,7 @@ title: "全部文章"
 {% endfor %}
 </ul>
 
-# 随笔
+## 随笔
 
 <ul>
 {% assign blogs = site['blogs_weekly'] | sort: 'date' %}
