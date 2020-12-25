@@ -14,7 +14,7 @@
 html {
 /*  font-size: 14px;
   font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: "Noto Sans SC", sans-serif;
   font-size: 14pt;
   line-height: 1.5;
 }
@@ -106,7 +106,7 @@ ul.double-spaced li {
 }
 
 pre, code {
-  font-family: "Source Code Pro", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
+  font-family: "Courier Prime", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
 }
 
 code {
@@ -233,7 +233,7 @@ hr {
 #nav-bg {
   margin: 0;
   padding: 0.25rem 1rem;
-  font-family: "Source Code Pro", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
+  font-family: "Courier Prime", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
   background: #007acc;
   color: #fff;
 }
@@ -277,7 +277,7 @@ input[type=checkbox]:checked ~ .trigger {
 }
 
 .menu-label {
-  font-family: "Source Code Pro", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
+  font-family: "Courier Prime", "Menlo", "DejaVu Sans Mono", "Lucida Console", monospace;
 }
 
 input[type=checkbox] ~ .menu-label:after {
