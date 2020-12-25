@@ -9,8 +9,8 @@ title: "全部文章"
 {% assign blogs = site['blogs_learning'] | sort: 'date' %}
 {% for blog in blogs %}
     <li>
-    <strong>Update at {{ blog.date | date: '%-m/%d' }}</strong>:
-    <a href="{{ blog.url }}">{{ blog.title }}</a>
+    <strong>{{ blog.date | date: '%Y/%m/%d' }}:
+    <a href="{{ blog.url }}">{{ blog.title }}</a></strong>
     </li>
 {% endfor %}
 </ul>
@@ -21,7 +21,7 @@ title: "全部文章"
 {% assign blogs = site['blogs_weekly'] | sort: 'date' %}
 {% for blog in blogs %}
     <li>
-    <a href="{{ blog.url }}"><strong>{{ blog.date | date: '%y/%m/%d' }}</strong></a>
+    <a href="{{ blog.url }}"><strong>{{ blog.date | date: '%Y/%m/%d' }}</strong></a>
     </li>
 {% endfor %}
 </ul>
