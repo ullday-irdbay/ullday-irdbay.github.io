@@ -22,8 +22,6 @@ tags: [featured, projects]
   </template>
 </zero-md>
 
----
-
 <!-- [Repository on GitHub](https://github.com/dull-bird/awesome-cheat-sheets). -->
 
 <!-- You can import `markdown` file to your `markdown` or `html` file by using [`<zero-md>`](https://zerodevx.github.io/zero-md/). -->
