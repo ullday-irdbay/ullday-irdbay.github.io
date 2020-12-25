@@ -21,7 +21,7 @@ title: "全部文章"
 {% assign blogs = site['blogs_weekly'] | sort: 'date' %}
 {% for blog in blogs %}
     <li>
-    <a href="{{ blog.url }}"><strong>{{ blog.date | date: '%-m/%d' }}</strong></a>
+    <a href="{{ blog.url }}"><strong>{{ blog.date | date: '%y/%m/%d' }}</strong></a>
     </li>
 {% endfor %}
 </ul>
