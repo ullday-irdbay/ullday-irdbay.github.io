@@ -8,9 +8,9 @@ tags: [featured]
 
 # 在GitHub Pages中嵌入bliiblii和youtube视频
 
-## bilibili
+## 1. bilibili
 
-### 获取代码
+### 1.1. 获取代码
 
 打开B站视频，并点击下方“分享”按钮。
 
@@ -26,7 +26,7 @@ tags: [featured]
 
 <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
-### 改进
+### 1.2. 改进
 
 我们可以在主题的`main.css`文件中添加以下代码（[来源](https://agong.me/2019/embeds-bilibili-video-to-wordpress.html)）：
 
@@ -50,7 +50,7 @@ top: 0;
 
 我们分别测试这两种`class`的效果（注意这里我们给嵌入视频加入了`high_quality=1`的标签，使得视频默认高清播放）：
 
-#### `aspect-ratio`
+#### 1.2.1. `aspect-ratio`
 
 代码：
 
@@ -66,7 +66,7 @@ top: 0;
     <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
-#### `aspect-ratio iframe`
+#### 1.2.2. `aspect-ratio iframe`
 
 代码：
 
@@ -84,7 +84,7 @@ top: 0;
 
 经过对比这两种方法的效果是一样的😅。
 
-## Youtube
+## 2. Youtube
 
 Youtube视频的分享更加简单。同样点击视频下方的“分享”，然后选择“嵌入”。
 

@@ -9,7 +9,7 @@ image: assets/images/humanoid.png
 
 # Deep learning 资料
 
-## 书籍
+## 1. 书籍
 
 - _Deep learning_ by 2016.
 
@@ -19,11 +19,11 @@ image: assets/images/humanoid.png
 
     机器学习圣经，没有讲太多深度学习的方法，但是从概率（尤其是贝叶斯方法）的角度来讲述整个机器学习的思想方法，在概念上较有帮助。
 
-## 课件
+## 2. 课件
 
-## 文章
+## 3. 文章
 
-## 视频课程
+## 4. 视频课程
 
 - 《强化学习纲要》 by 周博磊。
     [bilibili](https://www.bilibili.com/video/BV1LE411G7Xj)
