@@ -28,69 +28,21 @@ tags: [featured]
 
 ### 1.2. 改进
 
-我们可以在主题的`main.css`文件中添加以下代码（[来源](https://agong.me/2019/embeds-bilibili-video-to-wordpress.html)）：
-
-```css
-/* added for iframes */
-.video-ratio {
-position: relative;
-width: 100%;
-height: 0;
-padding-bottom: 76%;
-}
-
-.video-ratio iframe {
-position: absolute;
-width: 100%;
-height: 100%;
-left: 0;
-top: 0;
-}
-```
-
-我们分别测试这两种`class`的效果（注意这里我们给嵌入视频加入了`high_quality=1`的标签，使得视频默认高清播放）：
-
-#### 1.2.1. `video-ratio`
-
-代码：
+添加额外的代码改进播放效果：
 
 ```html
-<div class="video-ratio">
-    <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
+<iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&as_wide=1&high_quality=1&danmaku=0"
+	allowfullscreen="allowfullscreen"
+    width="100%" height="500"
+    scrolling="no"
+    frameborder="0"
+    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts">
+</iframe>
 ```
 
 效果：
 
-<div class="video-ratio">
-    <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-#### 1.2.2. `video-ratio iframe`
-
-代码：
-
-```html
-<div class="video-ratio iframe">
-    <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-```
-
-效果：
-
-<div class="video-ratio iframe">
-    <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-</div>
-
-<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
-
-<div class="youtube-wrapper">
-<iframe allowfullscreen="allowfullscreen"
-    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
-    src="//player.bilibili.com/player.html?aid=330753250&bvid=BV1rA411s78W&cid=271030134&page=1"> </iframe>
-</div>
-
-<iframe src="https://player.bilibili.com/player.html?cid=99269782&aid=56824180&page=1&as_wide=1&high_quality=1&danmaku=0"
+<iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&as_wide=1&high_quality=1&danmaku=0"
 	allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 经过对比这两种方法的效果是一样的😅。
 
