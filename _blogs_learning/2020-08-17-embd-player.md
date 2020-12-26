@@ -31,7 +31,7 @@ tags: [featured]
 添加额外的代码改进播放效果：
 
 ```html
-<iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&as_wide=1&high_quality=1&danmaku=0"
+<iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&as_wide=1&high_quality=3&danmaku=0"
         allowfullscreen="allowfullscreen"
         width="100%" height="500"
         scrolling="no"
