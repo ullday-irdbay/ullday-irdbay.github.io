@@ -84,9 +84,14 @@ top: 0;
 
 <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+<div class="youtube-wrapper">
 <iframe allowfullscreen="allowfullscreen"
     sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
     src="//player.bilibili.com/player.html?aid=330753250&bvid=BV1rA411s78W&cid=271030134&page=1"> </iframe>
+</div>
+
+<iframe src="https://player.bilibili.com/player.html?cid=99269782&aid=56824180&page=1&as_wide=1&high_quality=1&danmaku=0"
+	allowfullscreen="allowfullscreen" width="100%" height="500" scrolling="no" frameborder="0" sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"></iframe>
 经过对比这两种方法的效果是一样的😅。
 
 ## 2. Youtube
