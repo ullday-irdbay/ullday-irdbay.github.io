@@ -32,11 +32,11 @@ tags: [featured]
 
 ```html
 <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&as_wide=1&high_quality=1&danmaku=0"
-	allowfullscreen="allowfullscreen"
-    width="100%" height="500"
-    scrolling="no"
-    frameborder="0"
-    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts">
+        allowfullscreen="allowfullscreen"
+        width="100%" height="500"
+        scrolling="no"
+        frameborder="0"
+        sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts">
 </iframe>
 ```
 
