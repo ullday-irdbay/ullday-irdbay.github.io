@@ -63,7 +63,7 @@ top: 0;
 效果：
 
 <div class="video-ratio">
-    <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+    <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
 #### 1.2.2. `video-ratio iframe`
@@ -81,6 +81,8 @@ top: 0;
 <div class="video-ratio iframe">
     <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
+
+<iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
 经过对比这两种方法的效果是一样的😅。
 
