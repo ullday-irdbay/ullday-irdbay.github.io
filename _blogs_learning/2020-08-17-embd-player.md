@@ -84,6 +84,9 @@ top: 0;
 
 <iframe width="560" height="315" src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 
+<iframe allowfullscreen="allowfullscreen"
+    sandbox="allow-top-navigation allow-same-origin allow-forms allow-scripts"
+    src="//player.bilibili.com/player.html?aid=330753250&bvid=BV1rA411s78W&cid=271030134&page=1"> </iframe>
 经过对比这两种方法的效果是一样的😅。
 
 ## 2. Youtube
