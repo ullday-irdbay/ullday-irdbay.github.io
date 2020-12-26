@@ -32,14 +32,14 @@ tags: [featured]
 
 ```css
 /* added for iframes */
-.aspect-ratio {
+.video-ratio {
 position: relative;
 width: 100%;
 height: 0;
 padding-bottom: 76%;
 }
 
-.aspect-ratio iframe {
+.video-ratio iframe {
 position: absolute;
 width: 100%;
 height: 100%;
@@ -50,35 +50,35 @@ top: 0;
 
 我们分别测试这两种`class`的效果（注意这里我们给嵌入视频加入了`high_quality=1`的标签，使得视频默认高清播放）：
 
-#### 1.2.1. `aspect-ratio`
+#### 1.2.1. `video-ratio`
 
 代码：
 
 ```html
-<div class="aspect-ratio">
+<div class="video-ratio">
     <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 ```
 
 效果：
 
-<div class="aspect-ratio">
+<div class="video-ratio">
     <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
-#### 1.2.2. `aspect-ratio iframe`
+#### 1.2.2. `video-ratio iframe`
 
 代码：
 
 ```html
-<div class="aspect-ratio iframe">
+<div class="video-ratio iframe">
     <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 ```
 
 效果：
 
-<div class="aspect-ratio iframe">
+<div class="video-ratio iframe">
     <iframe src="//player.bilibili.com/player.html?aid=201491705&bvid=BV1Vh411Z7j5&cid=214635734&page=1&high_quality=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 </div>
 
