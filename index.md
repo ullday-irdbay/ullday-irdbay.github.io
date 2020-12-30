@@ -2,7 +2,7 @@
 layout: page
 ---
 
-# <span style="font-family:Courier Prime">./ullday-irdbay<\span>
+# <span style="font-family:Courier Prime">./ullday-irdbay</span>
 # Hello World!
 
 欢迎来到我的个人网站。我会在这里记录和分享（不管有没有人看）我的学习和生活。
