@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: lecture
 ---
 
 # <span style="font-family:Courier Prime">./ullday-irdbay</span>
