@@ -10,7 +10,7 @@ title: `./ullday-irdbay`
 
 # 关于名字
 
-:pig: Latin！
+🐷 Latin！
 
 ---
 
