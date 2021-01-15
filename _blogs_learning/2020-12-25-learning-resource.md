@@ -1,6 +1,6 @@
 ---
 layout: lecture
-title: 学习资料
+title: 计算机类学习资料
 # date: 2020-07-17 10:59:49 -0000
 categories: learning
 image: assets/images/data-science-cheat-sheets-thumbnail.jpg
@@ -13,7 +13,7 @@ tags: [featured, projects]
 
 <!-- Simply set the `src` attribute to your MD file and win -->
 <zero-md
-    src="https://raw.githubusercontent.com/ullday-irdbay/learnig-resource/main/readme.md">
+    src="https://raw.githubusercontent.com/dull-bird/cs-learnig-resource/main/readme.md">
     <template>
         <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
         <link rel="stylesheet" href="https://ullday-irdbay.github.io/static/css/main.css">
