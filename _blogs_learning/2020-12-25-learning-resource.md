@@ -13,7 +13,8 @@ tags: [featured, projects]
 
 <!-- Simply set the `src` attribute to your MD file and win -->
 <zero-md
-    src="https://raw.githubusercontent.com/dull-bird/cs-learnig-resource/main/readme.md">
+    src="https://raw.githubusercontent.com/dull-bird/cs-learning-resource/main/readme.md">
+    
     <template>
         <!-- Load external stylesheets with a `<link rel="stylesheet">` tag -->
         <link rel="stylesheet" href="https://ullday-irdbay.github.io/static/css/main.css">
