@@ -14,7 +14,7 @@ tags: [featured]
 
 打开B站视频，并点击下方“分享”按钮。
 
-<img src= "https://dull-bird.github.io/assets/images/bilibili_分享.png" width="50%" alt="">
+<img src= "https://ullday-irdbay.github.io/assets/images/bilibili_分享.png" width="50%" alt="">
 
 可以看到一个“嵌入代码”，复制它。
 
