@@ -21,4 +21,5 @@ layout: default
 <!-- <p>Licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0">CC BY-NC-SA</a>.</p> -->
 </div>
 
-创建于{{ page.date | date: '%Y/%m/%d' }} {% if page.updating %} <span class="small">（，持续更新...）</span>{% endif %}
+{% if page.date}创建于{{ page.date | date: '%Y/%m/%d' }} 。{% endif %}
+{% if page.updating %} <span class="small">（持续更新…）</span>{% endif %}
