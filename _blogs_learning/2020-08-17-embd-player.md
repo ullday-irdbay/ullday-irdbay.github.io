@@ -50,7 +50,7 @@ tags: [featured]
 
 Youtube视频的分享更加简单。同样点击视频下方的“分享”，然后选择“嵌入”。
 
-<img src="https://dull-bird.github.io/assets/images/youtube-embd.png" width = "50%" alt="youtube">
+<img src="https://ullday-irdbay.github.io/assets/images/youtube-embd.png" width = "50%" alt="youtube">
 
 直接将代码复制，粘贴到文章内即可。
 
