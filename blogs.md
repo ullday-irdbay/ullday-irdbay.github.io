@@ -19,15 +19,24 @@ layout: lecture
 
 ## 随笔
 
-<ul>
+<!-- <ul>
 {% assign blogs = site['blogs_weekly'] | sort: 'date' %}
 {% for blog in blogs %}
     <li>
     <a href="{{ blog.url }}"><strong>{{ blog.date | date: '%Y/%m/%d' }}</strong></a>
     </li>
 {% endfor %}
-</ul>
+</ul> -->
 
+<ul>
+{% assign blogs = site['blogs_weekly'] | sort: 'date' %}
+{% for blog in blogs %}
+    <li>
+    <strong>{{ blog.date | date: '%Y/%m/%d' }}:
+    <a href="{{ blog.url }}">{{ blog.title }}</a></strong>
+    </li>
+{% endfor %}
+</ul>
 <!-- <ul>
 {% assign blogs = site['blogs'] | sort: 'date' %}
 {% for blog in blogs %}
