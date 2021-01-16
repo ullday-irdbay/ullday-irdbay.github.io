@@ -5,6 +5,7 @@ date: 2020-06-14 10:14:17 -0000
 categories: [learning, reading]
 tags: [featured]
 image: assets/images/humanoid.png
+uptating: true
 ---
 
 # Deep learning 资料

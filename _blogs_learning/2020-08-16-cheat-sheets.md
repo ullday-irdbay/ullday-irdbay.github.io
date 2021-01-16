@@ -6,6 +6,8 @@ categories: learning
 image: assets/images/data-science-cheat-sheets-thumbnail.jpg
 author: zwdai
 tags: [featured, projects]
+uptating: true
+
 ---
 
 <!-- # test name -->
